@@ -2,7 +2,7 @@ from credit_card_factory import CreditCardFactory
 from american_express import AmericanExpress
 from invalid_card import NonCard
 
-class MasterFactory(CreditCardFactory):
+class AmericanExpressFactory(CreditCardFactory):
 
     def __init__(self):
         self.__next_chain = None

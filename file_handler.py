@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class FileHandler(ABC):
 
     def __init__(self, factory_entry):
-        self._factory_entry = factory_entry
+        self.factory_entry = factory_entry
 
     
     @abstractmethod
