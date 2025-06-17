@@ -11,4 +11,4 @@ class CSVHandler(FileHandler):
 
         # with open(file_name, 'r') as file:
 
-        return super().read_card() n
+        return super().read_card()
